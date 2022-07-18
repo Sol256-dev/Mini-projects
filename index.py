@@ -33,3 +33,5 @@ else:
     print("Incorrect!")
 
 print("your score is " + str(int((score/3)*100)) + "%")
+
+the end
