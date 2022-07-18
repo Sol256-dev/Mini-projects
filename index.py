@@ -14,7 +14,7 @@ if answer.lower() == "central processing unit":
     print("correct!")
     score += 1
 else:
-    print("Wrong!")
+    print("Incorrect!")
 
 answer = input("What does GPU Stand for? ")
 
@@ -22,7 +22,7 @@ if answer.lower() == "graphics processing unit":
     print("correct!")
     score += 1
 else:
-    print("Wrong!")
+    print("Incorrect!")
 
 answer = input("What does RAM Stand for? ")
 
@@ -30,6 +30,6 @@ if answer.lower() == "random access memory":
     print("correct!")
     score += 1
 else:
-    print("Wrong!")
+    print("Incorrect!")
 
 print("your score is " + str(int((score/3)*100)) + "%")
